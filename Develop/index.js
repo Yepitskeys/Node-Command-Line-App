@@ -1,9 +1,10 @@
 // // TODO: Include packages needed for this application
 
+
 // // TODO: Create an array of questions for user input
 // const questions = [];
 
-.prompt([
+inquirer.prompt([
     {
       type: 'input',
       message: 'What is your Project Title?',
@@ -47,5 +48,5 @@ function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 function init() {}
 
-// Function call to initialize app
+// Function call to initialize app`
 init();
