@@ -29,7 +29,7 @@ inquirer.prompt([
             { name: 'none', value: 'none' },
             { name: 'Apache 2.0', value: 'apache' },
             { name: 'GNU General v3.0', value: 'gnu3' },
-            { name: 'MIT', value: 'MIT' },
+            { name: 'MIT', value: 'mit' },
             { name: 'BSD 2-Clause Simplified', value: 'bsd2' },
             { name: 'BSD 3-Clause Revised', value: 'bsd3' },
             { name: 'Boost Software 1.0', value: 'boost' },
@@ -37,7 +37,6 @@ inquirer.prompt([
             { name: 'Eclipse Public 2.0', value: 'eclipse' },
             { name: 'GNU Affero v3.0', value: 'gnuAffero' },
             { name: 'GNU General v2.0', value: 'gnu2' },
-            { name: 'GNU Lesser General v2.1', value: 'gnuless' },
             { name: 'Mozilla Public 2.0', value: 'mozilla' },
             { name: 'The Unlicense', value: 'unlicense' },
         ]
