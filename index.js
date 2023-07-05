@@ -6,17 +6,27 @@ const fs = require('fs');
 const questions = [];
 
 inquirer.prompt([
-    {
-      type: 'input',
-      message: 'What is your Project Title?',
-      name: 'title',
-    },
-    {
-      type: 'input',
-      message: 'Provide a description of your project, detailing the what, why and how of your project ',
-      name: 'description',
-    },
-    {
+      {
+        type: 'input',
+        message: 'What is your Github username?',
+        name: 'username',
+      },
+      {
+        type: 'input',
+        message: 'What is your Github email address?',
+        name: 'email',
+      },
+      {
+        type: 'input',
+        message: 'What is your Project Title?',
+        name: 'title',
+      },
+      {
+        type: 'input',
+        message: 'Provide a description of your project, detailing the what, why and how of your project ',
+        name: 'description',
+      },
+      {
         type: 'input',
         message: 'What steps are required to install your project',
         name: 'installation',
@@ -41,10 +51,23 @@ inquirer.prompt([
             { name: 'The Unlicense', value: 'unlicense' },
         ]
       },
+      {
+        type: 'input',
+        message: 'What command should be run to install dependencies?',
+        name: 'dependencies',
+      },
+      {
+        type: 'input',
+        message: 'What command should be run to run tests?',
+        name: 'dependencies',
+      },
   ])
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile('./dist/$fileName}',(data), (err) =>
+    err ? console.log(err): console.log('Custom README successfully created!'))
+};
 
 // TODO: Create a function to initialize app
 function init() {}
