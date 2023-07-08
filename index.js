@@ -52,13 +52,18 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'What command should be run to install dependencies?',
-        name: 'dependencies',
+        message: 'What command should be run to run tests?',
+        name: 'tests',
       },
       {
         type: 'input',
-        message: 'What command should be run to run tests?',
-        name: 'dependencies',
+        message: 'What should users know about contributing to this repo',
+        name: 'contribution',
+      },
+      {
+        type: 'input',
+        message: 'What should users know about using this repo',
+        name: 'usage',
       },
   ];
 
@@ -75,8 +80,8 @@ function init() {
   console.log('Welcome to My README Generator!\nPlease answer the following questions to generate your own custom README!');
 
   inquirer.prompt(questions)
-  .then(readMe => {
-      writeToFile("./demo/readme.md", generateMarkdown(readmeData))
+  .then(readmeData => {
+      writeToFile("./dist/readme.md", generateMarkdown(readmeData))
   })
 
 };
