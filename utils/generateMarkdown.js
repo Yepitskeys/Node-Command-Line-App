@@ -93,7 +93,7 @@ function generateMarkdown(data) {
   ## Testing
   ${data.tests}
 
-  ##Additional Information
+  ## Additional Information
   For questions, additional information or hwo to get involved, reach out to [${data.username}](https://github.com/${data.username}) at ${data.email}
 
 `;
