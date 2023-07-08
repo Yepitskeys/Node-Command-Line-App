@@ -12,7 +12,7 @@ Authors
 Screenshot
 ![This screenshot is of the page the user is presented with when using the command line to input data into the generator](https://github.com/Yepitskeys/Node-Command-Line-App/assets/120697653/8f0a511b-b89d-4e3f-b019-d7b202b6a3e9)
 
-Video
+Video:
 https://drive.google.com/file/d/1Z5y5Rh9DShLhYwv3DNCi2MbKQl5UvbEt/view
 
 
