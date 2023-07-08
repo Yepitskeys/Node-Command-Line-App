@@ -17,4 +17,4 @@ https://drive.google.com/file/d/1Z5y5Rh9DShLhYwv3DNCi2MbKQl5UvbEt/view
 
 
 Repo:
-https://github.com/Yepitskeys/WorkDayScheduler
+https://yepitskeys.github.io/Node-Command-Line-App/
